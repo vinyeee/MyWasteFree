@@ -1,4 +1,7 @@
 # MyWasteFree
 GNB Living Lab Project-AIapplied recycling website
 
-<img width="277" alt="image" src="https://github.com/vinyeee/MyWasteFree/assets/108808701/c84ec260-de04-4ebe-91f2-f5fa0276078e">
+
+![image](https://github.com/vinyeee/MyWasteFree/assets/108808701/f7c5d21d-a2f3-4ce3-87df-13c2f7166c70)
+![image](https://github.com/vinyeee/MyWasteFree/assets/108808701/70e308c0-1311-4f6c-9cea-dc13d9281bdf)
+![image](https://github.com/vinyeee/MyWasteFree/assets/108808701/4ce6b4e0-9345-4f8f-814d-01325babed5d)
