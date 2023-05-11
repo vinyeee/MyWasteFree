@@ -1,4 +1,4 @@
-# MyWasteFree
+# MyWasteFree - AI 기반 분리수거 웹사이트
 GNB Living Lab Project-AIapplied recycling website
 
 
