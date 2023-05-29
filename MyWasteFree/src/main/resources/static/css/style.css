@@ -914,7 +914,6 @@ input.form-control::placeholder {
 .contact_section_2 {
     width: 100%;
     text-align: center;
-    background-image: url(../images/contact-bg.png);
     height: auto;
     background-size: 100%;
     padding: 40px 0px 60px 0px;
@@ -927,7 +926,7 @@ input.form-control::placeholder {
 }
 
 .mail_text {
-    width: 100%;
+    width: 60%;
     float: left;
     font-size: 16px;
     color: #363636;
@@ -936,6 +935,7 @@ input.form-control::placeholder {
     background-color: #ffffff !important;
     padding: 10px 15px 10px 15px;
     margin-top: 20px;
+    margin-left: 150px;
 }
 
 .massage-bt {
@@ -952,7 +952,13 @@ input.form-control::placeholder {
 .send_bt {
     width: 200px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
+    background-color: #8eb50b;
+    color: #fefeff;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .send_bt a {
@@ -964,6 +970,7 @@ input.form-control::placeholder {
     padding: 12px 0px;
     font-size: 20px;
     font-weight: bold;
+    margin: 20px;
 }
 
 .send_bt a:hover {

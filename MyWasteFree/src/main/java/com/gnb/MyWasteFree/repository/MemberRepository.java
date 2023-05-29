@@ -1,17 +1,14 @@
 package com.gnb.MyWasteFree.repository;
 
-
 import com.gnb.MyWasteFree.domain.Member;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import java.util.Optional;
+@Repository
+public interface MemberRepository extends JpaRepository<Member,Long> {
 
-public interface MemberRepository {
-    Member save(Member member); //save
-    Optional<Member> findByEmail(String email);
-    Optional<Member> findByMnum(Long mnum);
-    //Optional<Member> findByName(String name);
-    Optional<Member> findById(String id);
-
-    void delete(String id);
+    // 아이디 중복 확인용
+    @Query("select m from Member m where m.id = :id")
+    public Member findById(String id);
 }

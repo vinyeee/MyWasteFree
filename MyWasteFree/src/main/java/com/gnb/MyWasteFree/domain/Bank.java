@@ -8,15 +8,17 @@ import javax.persistence.*;
 @Entity
 @Getter
 @Setter
-@Table(name = "trash_category")
-public class Category {
+public class Bank {
     @Id
     @GeneratedValue
-    @Column(name="category_id")
+    @Column(name="bank_id")
     private Long id;
 
     private String name;
-    private String photo;
-    private String method;
-    private char recycle_permit;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "member_id")
+    private Member member;
+    private String account;
+    private Long pwd;
 }

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>My Waste Free</title>
+</head>
+<body>
+
+<div>
+    <table class="table table-striped">
+        <tbody>
+        <tr th:each="trash: ${searchList}">
+            <td th:text="${trash.name}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -42,14 +42,15 @@
                   <div id="mySidenav" class="sidenav">
                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                      <a href="/">Home</a>
-                     <a href="/today/recycle">오늘의 분리수거</a>
-                     <a href="about.html">분리수거 퀴즈</a>
-                     <a href="shop.html">포인트 스토어</a>
+                     <a href="/myWaste/ai">AI 분리수거</a>
+                     <a href="/myWaste/today/recycle">오늘의 분리수거</a>
+                     <a href="/myWaste/recycle/quiz">분리수거 퀴즈</a>
+                     <a href="/myWaste/store">포인트 스토어</a>
                   </div>
                   <form class="form-inline ">
                      <div class="login_text"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">Call : +01 1234567890</span></a></div>
                   </form>
-                  <a class="logo" href="home.html"><img src=""></a></a>
+                  <a class="logo" href="/"><img src=""></a></a>
                   <span class="toggle" onclick="openNav()"><i class="fa fa-bars"></i></span>
                   <div class="login_text"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left10">Email : GnB@gmail.com</span></a></div>
                </nav>
@@ -66,7 +67,7 @@
                   <div class="menu_main">
                      <div class="custome_menu">
                         <ul>
-                           <li class="active"><a href="home.html">Home</a></li>
+                           <li class="active"><a href="/">Home</a></li>
                            <li><a href="/myWaste/ai">AI 분리수거</a></li>
                            <li><a href="/myWaste/today/recycle">오늘의 분리수거</a></li>
                            <li><a href="/myWaste/recycle/quiz">분리수거 퀴즈</a></li>
@@ -75,7 +76,7 @@
                      </div>
                      <div class="login_menu">
                         <ul>
-                           <li><a href="#">Login</a></li>
+                           <li><a href="/myWaste/login">Login</a></li>
                            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                         </ul>
                      </div>
@@ -86,33 +87,34 @@
                      <div class="carousel-item active">
                         <div class="container">
                            <div class="row">
-                              <div class="col-md-12">
-                                 <h1 class="banner_taital">First step towards environmental protection with </h1>
-                                 <h1 class="banner_text">🌱My Waste Free🌱</h1>
-                                 <div class="banner_main">
-                                    <div class="dropdown">
-                                       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
-                                       </button>
-                                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <a class="dropdown-item" href="#">Action</a>
-                                          <a class="dropdown-item" href="#">Another action</a>
-                                          <a class="dropdown-item" href="#">Something else here</a>
+                              <form action="/myWaste/recycle/search">
+                                 <div class="col-md-12">
+                                    <h1 class="banner_taital">First step towards environmental protection with </h1>
+                                    <h1 class="banner_text">🌱My Waste Free🌱</h1>
+                                    <div class="banner_main">
+                                       <div class="dropdown">
+                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category
+                                          </button>
+                                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                             <a class="dropdown-item" href="#">Action</a>
+                                             <a class="dropdown-item" href="#">Another action</a>
+                                             <a class="dropdown-item" href="#">Something else here</a>
+                                          </div>
                                        </div>
-                                    </div>
-                                    <div class="main">
-                                       <!-- Another variation with a button -->
-                                       <div class="input-group">
-                                          <input type="text" class="form-control" placeholder="분리수거 방법이 궁금한 쓰레기 ex)배달용기,양파망,우유팩,전남친">
-                                          <div class="input-group-append">
-                                             <button class="btn btn-secondary" type="button" style="background-color: #ffffff; border-color:#ffffff ">
-                                             <i class="fa fa-search" style="color: #191919;"></i>
-                                             </button>
+                                       <div class="main">
+                                          <!-- Another variation with a button -->
+                                          <div class="input-group">
+                                             <input type="text" class="form-control" name="keyword" placeholder="분리수거 방법이 궁금한 쓰레기 ex)배달용기,양파망,우유팩,전남친">
+                                             <div class="input-group-append">
+                                                <button class="btn btn-secondary" type="submit" style="background-color: #ffffff; border-color:#ffffff ">
+                                                   <i class="fa fa-search" style="color: #191919;"></i>
+                                                </button>
+                                             </div>
                                           </div>
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="ordernow_bt"><a href="#">Search Now</a></div>
-                              </div>
+                              </form>
                            </div>
                         </div>
                      </div>
@@ -179,7 +181,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-6">
-                        <div class="blog_img"><img src="/images/blog-img1.png"></div>
+                        <div class="blog_img"><img src="/images/main_trash.jpg"></div>
                      </div>
                      <div class="col-md-6">
                         <div class="blog_taital_main">
@@ -206,8 +208,8 @@
                            <div class="testimonial_section_2">
                               <div class="row">
                                  <div class="col-md-4">
-                                    <h4 class="customer_text">Loliy Mark</h4>
-                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                    <h4 class="customer_text">YoungUn Kim</h4>
+                                    <p class="many_text">자취 처음시작했을 때 분리수거하는 법을 잘몰랐는데 퀴즈도 풀 수 있어서 너무 유용해요!🤗</p>
                                  </div>
                                  <div class="col-md-4">
                                     <h4 class="customer_text">Den Mark</h4>
@@ -224,8 +226,8 @@
                            <div class="testimonial_section_2">
                               <div class="row">
                                  <div class="col-md-4">
-                                    <h4 class="customer_text">Loliy Mark</h4>
-                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                    <h4 class="customer_text">YoungUn Kim</h4>
+                                    <p class="many_text"></p>
                                  </div>
                                  <div class="col-md-4">
                                     <h4 class="customer_text">Den Mark</h4>
