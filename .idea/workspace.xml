@@ -5,36 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bc16302-a32c-49b1-8d3d-e3f706cd7e87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/controller/JoinForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/controller/RecycleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/controller/TrashController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/domain/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/domain/Recycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/repository/RecycleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/repository/TrashRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/service/RecycleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/service/TrashService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/resources/static/js/webcam.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/resources/templates/member/joinPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/resources/templates/member/loginPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/resources/templates/trash/searchResults.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWasteFree/src/main/resources/templates/trash/searchResultDetail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/domain/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/domain/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/domain/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/domain/Trash.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/domain/Trash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/repository/JpaMemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/resources/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/controller/TrashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/controller/TrashController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/service/TrashService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/service/TrashService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWasteFree/src/main/resources/templates/trash/searchResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyWasteFree/src/main/resources/templates/trash/searchResults.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/YB/Desktop/MyWasteFree/MyWasteFree/src/main/resources",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
@@ -132,11 +110,6 @@
           <url>file://$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/controller/HomeController.java</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyWasteFree/src/main/java/com/gnb/MyWasteFree/MyWasteFreeApplication.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
