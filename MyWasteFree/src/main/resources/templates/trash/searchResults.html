@@ -32,6 +32,14 @@
     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/search.css">
+    <style>
+    .service_section_2 {
+        width: 20%;
+        float: left;
+        padding-top: 30px;
+    }
+</style>
 </head>
 <body>
 <!-- header section start -->
@@ -134,49 +142,13 @@
                 </div>
                 <div class="service_section_2">
                     <div class="row" th:each="trash: ${searchList}">
-                        <div class="col">
+                        <div class="col-ms-3">
                             <div class="service_box">
                                 <div class="breakfast_img"><img th:src ="${trash.photo}"></div>
                             </div>
                             <h4 class="breakfast_text" th:text="${trash.name}"></h4>
-                            <div class="seemore_bt"><a th:href="@{/myWaste/recycle/search/{id}(id=${trash.id})}">See More</a></div>
+                            <div class="seemore_bt"><a th:href="@{/myWaste/recycle/search/{id}(id=${trash.category.id})}">See More</a></div>
                         </div>
-                        <div class="col">
-                            <div class="service_box">
-                                <div class="breakfast_img"><img th:src ="${trash.photo}"></div>
-                            </div>
-                            <h4 class="breakfast_text" th:text="${trash.name}"></h4>
-                            <div class="seemore_bt"><a th:href="@{/myWaste/recycle/search/{id}(id=${trash.id})}">See More</a></div>
-                        </div>
-                        <div class="col">
-                            <div class="service_box">
-                                <div class="breakfast_img"><img th:src ="${trash.photo}"></div>
-                            </div>
-                            <h4 class="breakfast_text" th:text="${trash.name}"></h4>
-                            <div class="seemore_bt"><a th:href="@{/myWaste/recycle/search/{id}(id=${trash.id})}">See More</a></div>
-                        </div>
-                        <div class="col">
-                            <div class="service_box">
-                                <div class="breakfast_img"><img th:src ="${trash.photo}"></div>
-                            </div>
-                            <h4 class="breakfast_text" th:text="${trash.name}"></h4>
-                            <div class="seemore_bt"><a th:href="@{/myWaste/recycle/search/{id}(id=${trash.id})}">See More</a></div>
-                        </div>
-                        <div class="col">
-                            <div class="service_box">
-                                <div class="breakfast_img"><img th:src ="${trash.photo}"></div>
-                            </div>
-                            <h4 class="breakfast_text" th:text="${trash.name}"></h4>
-                            <div class="seemore_bt"><a th:href="@{/myWaste/recycle/search/{id}(id=${trash.id})}">See More</a></div>
-                        </div>
-                        <div class="col">
-                            <div class="service_box">
-                                <div class="breakfast_img"><img th:src ="${trash.photo}"></div>
-                            </div>
-                            <h4 class="breakfast_text" th:text="${trash.name}"></h4>
-                            <div class="seemore_bt"><a th:href="@{/myWaste/recycle/search/{id}(id=${trash.id})}">See More</a></div>
-                        </div>
-
                     </div>
                     </div>
                 </div>

@@ -45,7 +45,7 @@
                     <a href="/">Home</a>
                     <a href="/today/recycle">오늘의 분리수거</a>
                     <a href="about.html">분리수거 퀴즈</a>
-                    <a href="../shop.html">포인트 스토어</a>
+                    <a href="../store/shop.html">포인트 스토어</a>
                 </div>
                 <form class="form-inline ">
                     <div class="login_text"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">Call : +01 1234567890</span></a></div>
@@ -88,23 +88,25 @@
         <!-- contact section start -->
         <div class="contact_section layout_padding">
             <div class="container">
-                <div class="contact_section_2">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1 class="contact_taital">🌱Login MyWaste Free!🌱</h1>
-                            <form role="form" action="/myWaste/join" th:object="${JoinForm}" method="post">
+                <form role="form" action="/myWaste/join" th:object="${JoinForm}" method="post">
+                    <div class="contact_section_2">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1 class="contact_taital">🌱Join MyWaste Free!🌱</h1>
                                 <div class="mail_section_1">
-                                    <input type="text" class="mail_text" placeholder="NAME" name="name"><input type="text" class="mail_text" placeholder="ID" name="id">
+                                    <input type="text" class="mail_text" placeholder="NAME" name="name">
+                                    <input type="text" class="mail_text" placeholder="ID" name="id">
                                     <input type="password" class="mail_text" placeholder="PASSWARD" name="pwd">
                                     <input type="email" class="mail_text" placeholder="EMAIL" name="email">
                                     <input type="tel" class="mail_text" placeholder="PHONE NUMBER" name="phone">
-                                    <input type="text" class="mail_text" placeholder="ADDRESS" name="address">
-                                    <button class="send_bt" type="submit">회원가입</button>
+                                    <input type="text" class="mail_text" placeholder="ADDRESS" name="address"><div>
                                 </div>
-                            </form>
+                                </div>
+                            </div>
                         </div>
+                        <button class="send_bt" type="submit">회원가입</button>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
         <!-- contact section end -->
