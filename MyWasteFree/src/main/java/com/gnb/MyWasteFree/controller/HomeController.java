@@ -18,10 +18,7 @@ public class HomeController {
     public String recycleByAI(){
         return "contact";
     }
-    @GetMapping("/myWaste/recycle/quiz")
-    public String recycleQuiz(){
-        return "service";
-    }
+
     @GetMapping("/myWaste/store")
     public String pointStore(){
         return "shop";

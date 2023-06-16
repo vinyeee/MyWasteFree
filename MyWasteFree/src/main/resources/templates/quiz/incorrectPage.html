@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <!-- basic -->
     <meta charset="utf-8">
@@ -10,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>Foodfinda</title>
+    <title>My Waste Free</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -33,6 +32,7 @@
     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
 <!-- header section start -->
@@ -43,9 +43,10 @@
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="/">Home</a>
-                    <a href="/today/recycle">오늘의 분리수거</a>
-                    <a href="about.html">분리수거 퀴즈</a>
-                    <a href="../store/shop.html">포인트 스토어</a>
+                    <a href="/myWaste/ai">AI 분리수거</a>
+                    <a href="/myWaste/today/recycle">오늘의 분리수거</a>
+                    <a href="/myWaste/recycle/quiz">분리수거 퀴즈</a>
+                    <a href="/myWaste/store">포인트 스토어</a>
                 </div>
                 <form class="form-inline ">
                     <div class="login_text"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">Call : +01 1234567890</span></a></div>
@@ -67,16 +68,16 @@
                 <div class="menu_main">
                     <div class="custome_menu">
                         <ul>
-                            <li class="active"><a href="/">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="/myWaste/ai">AI 분리수거</a></li>
                             <li><a href="/myWaste/today/recycle">오늘의 분리수거</a></li>
-                            <li><a href="/myWaste/recycle/quiz">분리수거 퀴즈</a></li>
+                            <li class="active"><a href="/myWaste/recycle/quiz">분리수거 퀴즈</a></li>
                             <li><a href="/myWaste/store">포인트 스토어</a></li>
                         </ul>
                     </div>
                     <div class="login_menu">
                         <ul>
-                            <li><a href="/myWaste/login">Login</a></li>
+                            <li><a href="#">Login</a></li>
                             <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
@@ -84,35 +85,32 @@
             </div>
         </div>
         <!-- banner section end -->
-        <!-- contact section start -->
-        <div class="contact_section layout_padding">
+        <!-- blog section start -->
+        <div class="blog_section">
             <div class="container">
-                <div class="contact_section_2">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1 class="contact_taital">🌱Login MyWaste Free!🌱</h1>
-                            <form action="",method="post">
-                                <div class="mail_section_1">
-                                    <input type="text" class="mail_text" placeholder="ID" name="id">
-                                    <input type="password" class="mail_text" placeholder="PASSWARD" name="pwd">
-                                    <div class="send_bt"><a href="#">login</a></div>
-                                </div>
-                            </form>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="blog_taital">오답입니다 😭❌</h1>
                     </div>
-                    <!-- order section start -->
-                    <div class="order_section">
-                        <div class="order_taital_main">
-                            <h1 class="order_taital">아직 회원이 아니신가요?</h1>
-                            <div class="order_bt"><a href="/myWaste/join">회원가입</a></div>
-                        </div>
+                    <div class="question">
+                        <h2 th:text="${quiz.get().answer}"></h2>
                     </div>
-                    <!-- order section end -->
                 </div>
             </div>
         </div>
-        <!-- contact section end -->
-
+        <div class="blog_section_2 layout_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="seemore_bt"><a href="/">홈</a></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="seemore_bt"><a href="#">다음문제</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- blog section end -->
         <!-- footer section start -->
         <div class="footer_section">
             <div class="container">
@@ -129,7 +127,7 @@
                                     <li class="active"><a href="../home.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="location.html">Location</a></li>
-                                    <li><a href="../quiz/trash_quiz.html">Services</a></li>
+                                    <li><a href="trash_quiz.html">Services</a></li>
                                     <li><a href="features.html">Features</a></li>
                                 </ul>
                             </div>
@@ -198,7 +196,11 @@
            document.getElementById("mySidenav").style.width = "0";
          }
 
+         function checkAnswer(userAnswer){
+            var correctAnswer = true
 
-      </script>
+         }
+
+</script>
 </body>
 </html>

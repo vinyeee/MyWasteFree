@@ -680,6 +680,7 @@ input.form-control::placeholder {
     font-size: 50px;
     color: #eaebe7;
     font-weight: 800;
+    text-align: center;
 }
 
 .blog_section_2 {
@@ -738,9 +739,25 @@ input.form-control::placeholder {
 }
 
 .blog_img img {
-    width: 100%;
+    width: 300px;
     margin-bottom: 20px;
+    border-radius: 30px;
+    margin-left: 130px;
+    margin-top: 200px;
 }
+
+.question {
+       margin: 0 auto;
+    }
+
+.question h2 {
+    font-size: 40px;
+    padding: 50px;
+    font-weight: bold;
+    color: #eaebe7;
+}
+
+
 
 
 /* about section end */
